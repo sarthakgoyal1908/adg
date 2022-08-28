@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+    <title>Organising Committee</title>
+<style>
+    *{margin: 0;
+    padding: 0;
+    font-family: 'Baloo Bhai 2', cursive;}
+
+    .topbar {
+background: #0e1328;
+padding: 10px;
+}
+
+.topbar p{
+    color: white;
+}
+
+.logo{
+    /* margin: 100px 100px;
+    padding: 100px 100px; */
+    background-color: #e4e0da;
+}
+
+.logo img{
+    margin: 10px 100px;
+/* padding: -11px 0px;
+heigth: 10px; */
+width: 350px
+}
+/* span{
+    margin: 10px 10px;
+    padding: 10px 10px;
+} */
+
+#awarded{
+    background-color: #f00;
+color: #fffbfb;
+padding: 8px;
+align-items: end;
+display: flex;
+justify-content: right;
+margin: -77px 135px 10px auto;
+width: 210px;
+}
+.navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0e1328;
+}
+
+.navigation li {
+  float: left;
+}
+
+ li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ li a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(0, 187, 255);
+  border-radius: 23px;
+}
+
+ li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* .navigation
+{display: flex;
+background-color: #0e1328;
+border: 0px solid aliceblue;
+border-radius: 0px;}
+
+.navigation ul {
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 10px;
+
+}
+.navigation ul li{
+list-style: none;
+padding: 0px 15px;
+margin: 10px;
+}
+
+.navigation ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.navigation ul li a:hover {
+  cursor: pointer;
+  color: rgb(1, 196, 255);
+
+} */
+
+/* img{width: 1522px;
+height: 724px;
+margin: -405px 0px;
+padding: 100px 0px;
+z-index: -1;
+position: absolute;} */
+
+main img{
+/* position: absolute;
+z-index: -1; */
+/* height: 1111px; */
+width: 1519px;
+margin: -430px 0px;}
+
+div.background{
+position: absolute;
+z-index: -1;
+}
+.back {
+width: 99vw;
+height: 100vh;
+padding: -44px 0px;
+background-image: inherit;
+}
+footer{
+background-color: #0e1328;
+}
+footer {
+color: white;
+}
+
+.contactinfo span{
+color: orange;
+}
+
+.contactinfo li a{
+text-decoration: none;
+list-style: none;
+color: #e4e0da;
+
+
+}
+.contactinfo ul{
+list-style: none;
+}
+/* .contactinfo ul{
+display: grid;
+list-style: none;
+border: 2px solid aliceblue;
+justify-content: center;
+margin-top: -319px;
+padding: 16px 13px;
+align-items: unset;
+width: 1009px;
+} */
+
+footer img
+{height: 30vh;
+width: 15vw;
+}
+
+/* div.contactinfo{
+display: inline-block;
+justify-content: space-between;
+align-self: auto;
+margin: 206px;
+padding: 109px 82px
+} */
+
+section.box{
+/* border: 2px solid white; */
+margin: 10px;
+padding: 10px 10px;
+/* border: 2px solid white; */
+margin: -137px 246px;
+padding: 13px 393px;
+height: 150px;
+width: 212px;
+display: inline-block;
+}
+
+section#box3.box{
+position: absolute;
+margin: -223px 561px;
+width: 18vw;
+}
+section#box1.box{
+position: absolute;
+margin: -206px -108px;;
+width: 15vw;
+}
+section#box2.box{
+position: absolute;
+margin: -206px 260px;
+width: 15vw;
+}
+
+footer p{
+display: flex;
+justify-content: center;
+}
+
+div.container{
+    background-color: wheat;
+border: 2px solid black;
+border-radius: 40px;
+margin: 0px 4px;
+padding: 100px 130px;
+}
+
+div.container h1{
+    display: flex;
+    justify-content: center;
+}
+
+</style>
+</head>
+<body>
+<div class="topbar">
+    <p class="copyright">This is the official site of Dr Akhilesh Das Gupta Institute of Technology and Management,New Delhi</p>
+
+</div>
+<div class="logo">
+    <img src="logo.png">
+    <div class="logo2">
+        <span id="awarded">Awarded A Grade by GGSIPU</span>
+    </div>
+<br>
+<hr>
+</div>
+<header>
+    <div class="navigation">
+        <ul>
+            <li><a href="https://adgitmdelhi.ac.in">Home</a></li>
+            <li class="dropdown">
+              <a href="javascript:void(0)" class="dropbtn">For Authors</a>
+              <div class="dropdown-content">
+                  <a href="tracks.html">Tracks</a>
+                  <a href="registration.html">Registration</a>
+                  
+              </div>
+            </li>
+            <li class="dropdown">
+              <a href="javascript:void(0)" class="dropbtn">Committee</a>
+              <div class="dropdown-content">
+                  <a href="advisorycommittee.html">Advisory Committee</a>
+                  <a href="technicalprogramcommittee.html">Technical Program Committee</a>
+                  <a href="organisingcommittee.html">Organising Committee</a>
+                  <a href="studentcommiittee.html">Student Committee</a>
+
+                  
+                  <li><a href="importantdates.html">Important Dates</a></li>
+                  <li><a href="callforpapers.html">Call for Papers</a></li>
+                  <li><a href="contactus.html">Contact Us</a></li>
+
+
+              </div>
+            </li>
+          </ul>
+        </div>
+        
+    </nav>
+    </header>
+
+        <div class="background">
+            <img class="back" src="clgimg5.webp">
+
+            
+
+            <div class="container">
+            <h1>Tracks</h1>
+            
+Authors are invited to submit their latest original and published research work/results in the following areas, but not limited to:
+       <ul>
+        <b>Track1 :</b>
+            <li>Advance Computing &Artificial intelligence</li>  
+            <li>Neural Network</li>
+            <li>Parallel Computing</li>
+            <li>Genetic Algorithm</li>
+            <li>Applied Dynamical System</li>
+            <li>Cloud Configuration</li>
+            <li>Green Computing and ICT</li>
+            <li>Immunological Computing</li>
+            <li>Higher Order Neural Computing</li>
+            <li>Computational Methods in Nano-Science</li>
+            <li>Computational Modeling & Designs</li>
+            <li>Smart Computing</li>
+
+
+        <b>Track 2:</b> 
+            <li>Intelligence </li>
+			<li>Fuzzy set theory</li>
+			<li>Swarm Intelligence</li>
+			<li>Optimization</li>
+			<li>Robotics and automation</li>
+
+	    <b>Track 3:</b> 
+            <li>Network and Network Security </li>
+			<li>Information Security & Cryptology</li>
+			<li>Ethical Hacking</li>
+			<li>Wireless Network & Security</li>
+			<li>Mobile Communication Security</li>
+			<li>Cyber security</li>
+			<li>Remote Sensing</li>
+			<li>GIS based decision Support System</li>
+
+      <b>Track 4:</b> 
+            <li>Data Science & Data Analytics</li>
+            <li>Data Science Techniques and Applications</li>
+            <li>Data Warehousing and Data Mining</li>
+            <li>Disaster Management</li>
+            <li>Social Network Analysis</li>
+            <li>Text, Audio and Video data Analysis</li>
+            <li>Motion Planning</li>
+            <li>Decision-making</li>
+            <li>Data mining in Dynamic Environment</li>
+            <li>Hybrid Computing</li>
+            <li>Big Data Analytics</li>
+            <li>Digital Marketing and Ecommerce</li>
+      <b>Track 5: Pattern Recognition</b>
+            <li>Multi-agent systems</li>
+            <li>Image and Signal Processing</li>
+            <li>Artificial Immune System</li>
+            <li>Sentiment Analysis</li>
+            <li>Cognitive Science </li>
+      <b>Track 6:Information Retrieval</b> 
+            <li>Information Retrieval </li>
+            <li>Deep Learning</li>
+            <li>Internet of Thing & Block Chain</li>
+            <li>Bioinformatics</li>
+            <li>Medical Informatics</li>
+            <li>Stochastic Optimization</li>
+            <li>Internet and Web Technologies</li>
+
+            
+
+                
+ 
+            </ul>
+    </div>
+
+    <footer>
+
+      <img src="bbdgrplogo.png">
+      <div class="contactinfo">
+        <ul>
+          <section class="box" id="box1">
+          <span>Location</span><br>
+        <li>F-26 Shastri Park,Delhi-110053</li><br>
+           <span>Phone Numbers</span><br>
+           <li>+91(11) 49905900-99</li><br>
+           <span>Email</span><br>
+           <li>info@adgitmdelhi.ac.in</li><br>
+
+
+               
+          <!-- </section>
+          <section class="box" id="box2">
+            
+           <span>Quick Links</span>
+           <ul>
+            <li><a href="https://adgitmdelhi.ac.in">Home</a></li>
+            <li><a href="https://adgitmdelhi.ac.in/group-profile/">About Group</a></li>
+            <li><a href="https://adgitmdelhi.ac.in/academics/">Academics</a></li>
+            <li><a href="https://adgitmdelhi.ac.in/placement/">Placement</a></li>
+            <li><a href="https://adgitmdelhi.ac.in/wp-content/uploads/2020/10/EOA_Report_2020-21-2.pdf">AICTE EoA</a></li>
+            <li><a href="https://360.adgitmdelhi.ac.in">Virtual Tour</a></li>
+            <li><a href="https://adgitmdelhi.ac.in/wp-content/uploads/2022/03/Mandatory-Disclosure-2021-22.pdf">Mandatory Disclosure 2021-22</a></li>
+            <li><a href="https://adgitmdelhi.ac.in/wp-content/uploads/2022/01/financial-statement.pdf">Financial Statement</a></li>
+           </ul>
+           </section>
+       -->
+      
+      
+      </ul>
+         <br>    
+          <section class="box" id="box3"> 
+      <span>Notices</span>
+      <br>
+      <a href="https://adgitmdelhi.ac.in/fee-structure-for-bba-2nd-year-students-for-a-y-2022-23-admitted-in-2021-22/">Fee Structure for BBA 2nd year students for A. Y. 2022-23 (Admitted in 2021-22)</a>
+      <br>
+      <time datetime="2022-08-23T10:53:47+05:30">August 23, 2022</time>
+      <br>
+      <a href="https://adgitmdelhi.ac.in/fee-structure-for-b-tech-3rd-year-admitted-in-2020-21-and-b-tech-le-3rd-year-students-admitted-in-2021-22-for-a-y-2022-23/">Fee Structure for B.Tech 3rd year (Admitted in 2020-21) and  B.Tech (LE) 3rd year students (Admitted in  2021-22) for  A.Y. 2022-23</a>
+      <br>
+      <time datetime="2022-08-23T10:52:31+05:30">August 23, 2022</time>
+    </div>
+      <hr>
+  </section>
+
+        
+            <P> © Copyright 2018. All Rights Reserved by ADGITM, New Delhi.  </P>
+          
+    </footer>
+
+
+</body>
+</html>
